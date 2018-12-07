@@ -12,8 +12,7 @@ We need the following programming languages to program this app:
 
 #The task distribution was determined as follows:
 
-*Giovani:
-- Mysql (backend) 
 
 *Lisa:
 - app (frontend)
+- Mysql (backend)
