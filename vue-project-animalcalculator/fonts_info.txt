@@ -1,0 +1,4 @@
+List of Fonts used in template 
+
+BEBAS:			http://www.dafont.com/search.php?psize=m&q=BEBAS; 
+			http://www.dafont.com/bebas.font
