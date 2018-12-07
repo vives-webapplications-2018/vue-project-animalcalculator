@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery-1.6.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>  
+  	<script type="text/javascript" src="js/Bebas_400.font.js"></script>
+  <script type="text/javascript" src="js/bg.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>  
+  <script type="text/javascript" src="js/content_switch.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>  
+  <script type="text/javascript" src="js/forms.js"></script>  
+  <script type="text/javascript" src="js/cScroll.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.11.custom.min.js"></script>  
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+</head>
+
+<body>
+<div class="spinner"></div>
+<div id="bg"><img src="images/background.png" alt="">
+	<div id="app">
+		{{ message }}
+	  </div>
+	  <script>
+	  var app = new Vue({
+  el: '#app',
+  data: {
+    message: ' '
+  }
+})
+	  </script>
+</div>
+<div class="extra">
+		<div class="wrapper">
+			<!--header -->
+			<header>
+				
+				<nav class="menu">
+					<ul id="menu">
+						<li><a href="#!/page_home"><span></span><strong>home</strong></a></li>
+						<li><a href="#!/page_company"><span></span><strong>Dieren</strong></a>
+							<div class="submenu_1">
+								<ul>
+									<li><a href="#!/page_more">Dieren</a></li>
+									<li><a href="#!/page_more">Soorten</a>
+										<div class="submenu_2">
+											<ul>
+												<li><a href="#!/page_amfibie">Amfibie</a></li>
+												<li><a href="#!/page_reptiel">Reptiel</a></li>
+												<li><a href="#!/page_zoogdier">Zoogdier</a></li>
+												<li><a href="#!/page_weekdier">Weekdier</a></li>
+											</ul>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</li>
+						<li><a href="#!/page_services"><span></span><strong>Doel</strong></a></li>
+						<li><a href="#!/page_clients"><span></span><strong>Bronnen</strong></a></li>
+						<li><a href="#!/page_contacts"><span></span><strong>Contact</strong></a></li>
+					</ul>
+				</nav>
+			</header>
+			<!--header end-->
+		<div class="main">
+			<!--content -->
+			<article id="content">
+				<ul>
+					<li id="page_home">
+					</li>
+					<li id="page_company">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2>Dieren</h2>
+							<h3>We hebben in deze website de dieren onderverdeeld in 4 subclassen</h3>
+							<ul class="pad_bot1">
+								<li>Amfibie</li>
+								<li>Reptiel</li>
+								<li>Zoogdier</li>
+								<li>Weekdier</li>
+							</ul>
+							<a href="#!/page_more" class="button1"><span><strong>meer info</strong></span><span class="active"><strong>meer info</strong></span></a>
+							<h3 class="under">Subcategorie</h3>
+							<div class="wrapper">
+								<div class="col1">
+									<div class="wrapper pad_bot1">
+										<figure class="left marg_right1"><span class="act"></span><a href="#!/page_more"><img src="images/page1_img1.jpg" alt=""></a></figure>
+										<div class="cols">
+											<p class="pad_bot2"><strong class="color1">Amfibie</strong><br>
+												De naam amfibie is afgeleid van het Griekse ἀμφί-βιος amphí-bios, wat "dubbel-levend" betekent. Dit verwijst naar de levenswijze van amfibieën: ze kunnen zowel in het water als op het land overleven. <br>
+											</p>
+											<a href="#!/page_more" class="button1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+										</div>
+									</div>
+									<div class="wrapper pad_bot1">
+										<figure class="left marg_right1"><span class="act"></span><a href="#!/page_more"><img src="images/page1_img2.jpg" alt=""></a></figure>
+										<div class="cols">
+											<p class="pad_bot2"><strong class="color1">Reptiel</strong><br>
+											Reptiel betekent kruipend dier.<br>
+											</p>
+											<a href="#!/page_more" class="button1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+										</div>
+									</div>
+								</div>
+								<div class="col1 pad_left1">
+									<div class="wrapper pad_bot1">
+										<figure class="left marg_right1"><span class="act"></span><a href="#!/page_more"><img src="images/page1_img3.jpg" alt=""></a></figure>
+										<div class="cols">
+											<p class="pad_bot2"><strong class="color1">Zoogdier</strong><br>
+												Een zoogdier is een dier dat wordt geboren uit de buik van zijn of haar moeder. Een uitzondering hiervan zijn de eierleggende zoogdieren. <br>
+											</p>
+											<a href="#!/page_more" class="button1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+										</div>
+									</div>
+									<div class="wrapper pad_bot1">
+										<figure class="left marg_right1"><span class="act"></span><a href="#!/page_more"><img src="images/page1_img4.jpg" alt=""></a></figure>
+										<div class="cols">
+											<p class="pad_bot2"><strong class="color1">Weekdier</strong><br>
+												De weekdieren vormen een stam van ongewervelde dieren met een week lichaam<br>
+											</p>
+											<a href="#!/page_more" class="button1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div></div>
+					</li>
+					<li id="page_services">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2>Ons doel</h2>
+							<h3>Ons doel is om jou leeftijd te berekenen in dierenjaren</h3>
+							<div class="wrapper">
+								<div class="cols">							
+									<p class="pad_bot2"><strong class="color1">Wetenschap</strong><br>
+											Als deze informatie dat je vind op deze website is <br>
+											van wetenschappelijke bodem afkomstig<br>
+										 </p>
+									<a href="https://nl.wikipedia.org/wiki/Hoofdpagina" class="button1 marg_bot1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+								</div>	
+								<div class="cols pad_left2">							
+									<p class="pad_bot2"><strong class="color1">Interesse</strong><br>
+											Het leek ons leuk om adhv deze website<br>
+											je leeftijd te weten. Bv hoe oud je bent in walvisjaren<br>
+											</p>
+									<a href="https://dekopakker.jouwweb.nl/eigen-interesse" class="button1 marg_bot1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+								</div>	
+								<div class="cols pad_left2">							
+									<p class="pad_bot2"><strong class="color1">Fun</strong><br>
+											Omdat de boog niet altijd gespannen hoort te staan, en af en toe<br>
+											ontspanning belangrijk is, hebben we deze website gemaakt<br>
+											</p>
+									<a href="https://9gag.com/" class="button1 marg_bot1"><span><strong>more</strong></span><span class="active"><strong>more</strong></span></a>
+								</div>	
+							</div>
+							<div class="wrapper">
+								<div class="col2 marg_right1">
+								</div>
+								<div class="col3">
+									<div class="wrapper">
+										<div class="col1 marg_right1">
+											<div class="wrapper">
+											<div class="wrapper">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div></div>
+					</li>
+					<li id="page_clients">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2>Onze bronnen</h2>
+							<h3>Om deze website te hebben gemaakt, hebben we gebruik gemaakt van volgende informatiebronnen</h3>
+								<div class="cols">
+									<div class="pad_bot2">
+										<figure><span class="act"></span><a href="#!/page_more"><img src="images/page3_img1.jpg" alt=""></a></figure>
+									</div>
+									<div class="pad_bot2">
+										<p><strong class="color1">Wikipedia</strong><br>
+											Wikipedia is een online encyclopedie die info aanbied<br>
+											die vrij herbruikbaar en objectief is</p>
+									</div>
+									<div class="pad_bot2">
+										<figure><span class="act"></span><a href="#!/page_more"><img src="images/page3_img2.jpg" alt=""></a></figure>
+									</div>
+									<p><strong class="color1">Github</strong><br>
+										GitHub brings together the world's largest community of developers to discover, share, and build better software<br>
+											</p>
+								</div>
+								<div class="cols pad_left2">
+									<div class="pad_bot2">
+										<figure><span class="act"></span><a href="#!/page_more"><img src="images/page3_img3.jpg" alt=""></a></figure>
+									</div>
+									<div class="pad_bot2">
+										<p><strong class="color1">Knack</strong><br>
+										    Knack is een Nederlandstalig Belgisch actualiteitenmagazine, opinietijdschrift en weekblad<br>
+											</p>
+									</div>
+									<div class="pad_bot2">
+										<figure><span class="act"></span><a href="#!/page_more"><img src="images/page3_img4.jpg" alt=""></a></figure>
+									</div>
+									<p><strong class="color1">HLN</strong><br>
+										Het Laatste Nieuws is een Nederlandstalige, liberale, vrijzinnige Belgische kran<br>
+											</p>
+								</div>
+								<div class="cols pad_left2">
+									<div class="pad_bot2">
+										<figure><span class="act"></span><a href="#!/page_more"><img src="images/page3_img5.jpg" alt=""></a></figure>
+									</div>
+									<div class="pad_bot2">
+										<p><strong class="color1">Age converter</strong><br>
+							             convert the age of your pet and obtain immediately its equivalence in human age.<br>
+											</p>
+									</div>
+									<div class="pad_bot2">
+										<figure><span class="act"></span><a href="#!/page_more"><img src="images/page3_img6.jpg" alt=""></a></figure>
+									</div>
+									<p><strong class="color1">Vue.js</strong><br>
+										Vue maakt web development een pak eenvoudiger. De componenten werken onafhankelijk<br>
+											</p>
+								</div>
+						</div></div>
+					</li>
+					<li id="page_amfibie">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2>Amfibie</h2>
+							<h3>Soorten</h3>
+									<div class="cols">
+									<div class="pad_bot2">
+										<p><strong class="color1">Salamander</strong><br>	
+											<form name="TESTING">
+												<h4>Input</h4>
+												<input type="number" name="INPUT1" id="input" onchange="calculate();"/>
+												<h4>Output</h4>
+												<input type="number" name="OUTPUT1" id="output">
+								</form>
+							<script type="text/javascript">
+								function calculate() {
+									var USERINPUT1 = document.TESTING.INPUT1.value,
+										RESULT = (USERINPUT1/20) * .585 * .30;
+									document.TESTING.OUTPUT1.value = RESULT;
+								}
+							</script>	
+									</div>
+								
+								<div id="app-5">
+									<p>{{ message }}</p>
+									<button v-on:click="reverseMessage">Reverse Message</button>
+								  </div>
+								  <script>
+								  var app5 = new Vue({
+									  el: '#app-5',
+									  data: {
+									message: 'Amfibie'
+									  },
+									  methods: {
+									reverseMessage: function () {
+								  this.message = this.message.split('').reverse().join('')
+										}
+									  }
+									})
+								  </script>
+						</div></div>
+					</li>
+					
+					
+					<li id="page_contacts">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2>contact  informatie</h2>
+							<div class="col1">
+								<h3>Ons adres</h3>
+								<div class="pad_bot1">
+									<figure><span class="act"></span><iframe width="294" height="184" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=&amp;output=embed"></iframe></figure>
+								</div>
+								<p><strong class="color1">Spoorwegstraat 12<br>
+										8200 BRUGGE, BELGIUM</strong><br>
+										<span class="cols">Telefoon:</span>       +32 50 40 59 00<br>
+										E-mail: <a href="mailto:">iwt.brugge@vives.be</a></p>
+								<p><strong class="color1">Aswegstraat 24 bus a<br>
+										8770 INGELMUNSTER, BELGIUM</strong><br>
+										<span class="cols">Telefoon:</span>       +32 40 70 30 20<br>
+										E-mail: <a href="mailto:">lisa.stubbe@fictief.be</a></p>
+							</div>
+							<div class="col2 pad_left1">
+								<h3>get  in  touch</h3>
+								<form action="#" id="ContactForm">
+								  <div class="success"> Contact form submitted!<br>
+									<strong>We will be in touch soon.</strong> </div>
+								  <fieldset>
+									<div class="wrapper">
+											<label class="name">
+									  <span class="bg"><input type="text" value="Naam:" class="input"></span>
+									  <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> </label></div>
+									<div class="wrapper">
+											<label class="email">
+									  <span class="bg"><input type="text" value="E-mail:" class="input"></span>
+									  <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span> </label></div>
+									<div class="wrapper">
+											<label class="phone">
+									  <span class="bg"><input type="tel" value="Telefoon:" class="input"></span>
+									  <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span> </label></div>
+									<div class="wrapper">
+											<label class="message">
+									 <span class="bg"><textarea rows="1" cols="1">Bericht:</textarea></span>
+									  <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label></div>
+									<div class="btns"><a href="#" class="button1" data-type="submit"><span><strong>send</strong></span><span class="active"><strong>send</strong></span></a></div>
+								  </fieldset>
+								</form>
+							</div>
+						</div></div>
+					</li>
+					<li id="page_privacy">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2 class="marg_bot1">privacy  policy</h2>
+							<div class="col1">
+								<p><strong class="color1">Lorem ipsum dolor.</strong><br>
+										Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermen- tum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+								<p><strong class="color1">Quisque nulla. </strong><br>
+										Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.</p>
+								<p>Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermen- tum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. </p>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+								<p>E-mail: <a href="mailto:">info@demolink.org</a></p>
+							</div>
+						</div></div>
+					</li>
+					<li id="page_more">
+						<img src="images/bg_content.png" alt="" class="bg_cont">
+						<div class="box"><div>
+							<h2 class="marg_bot1"> Dieren (Animalia)</h2>
+							<div class="relative">
+								<div class="scroll">
+									<div class="col1">
+										<p><strong class="color1"></strong><br>
+											De dieren (wetenschappelijke naam: Animalia), vormen een rijk in de supergroep Unikonta, behorende tot het domein van de Eukaryota.</p>
+										<p><strong class="color1">Oorsprong en evolutie</strong><br>
+											De dominerende opvatting is dat de meercellige dieren geëvolueerd zijn uit kolonievormende eencellige choanoflagellaten-voorouders</p>
+										<p>Dit zijn zweepdiertjes met een kraag rond de zweepstaart. </p>
+										<p> De morfologie van deze eencelligen lijkt namelijk sterk op bepaalde lichaamscellen van de sponsdieren (de choanocyten), en gelijksoortige kraagcellen komen in het gehele dierenrijk voor.</p>
+										<p><strong class="color1">Onderverdelingen in het dierenrijk</strong><br>
+										<p>Het dierenrijk kan in vier hoofdgroepen (onderrijken) onderverdeeld worden op basis van complexiteit en het al of niet bezitten van bepaalde geavanceerde kenmerken:</p>
+										<p>De Eumetazoa of orgaandieren worden op hun beurt weer onderverdeeld in de volgende twee hoofdgroepen (geen echte taxon), gebaseerd op hun uiterlijke symmetrie:</p>
+										<ul>
+											<li>Eumetezoa</li>
+											<li>Bilateria</li>
+										</ul>
+										
+									</div>
+								</div>
+							</div>
+						</div></div>
+					</li>
+				</ul>
+			</article>
+			<!--content end-->
+		</div>
+	</div>
+	<div class="block"></div>
+</div>
+<div class="bg1">
+		
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+<script>
+$(window).load(function() {	
+	$('.spinner').fadeOut();
+	$('body').css({overflow:'inherit'})
+})
+</script>
+<!--coded by koma-->
+</body>
+</html>
